@@ -1,4 +1,4 @@
-console.log('Hi Welcome to noded js');
+console.log('Hi Welcome to node js');
 
 setTimeout(() => {
     console.log('message delayed for 2 seconds');
