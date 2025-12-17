@@ -1,5 +1,21 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+    .hero
+      h1 Welcome to #{title} Learning! 👋
+      p Your journey to mastering modern web development starts here
+      a.btn(href='/users') Get Started
+    
+    .features
+      .feature-card
+        h3 🚀 Fast & Efficient
+        p Built with Express.js, one of the most popular Node.js frameworks for building web applications
+      
+      .feature-card
+        h3 📚 Learn by Doing
+        p Hands-on experience with routing, middleware, and server-side rendering
+      
+      .feature-card
+        h3 🎨 Modern Design
+        p Beautiful, responsive interfaces that work seamlessly across all devices
